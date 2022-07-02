@@ -5,7 +5,7 @@ namespace OnShoppingApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    //[Authorize]
+    [Authorize]
     public class SampleController
     {
         [HttpGet(Name = "GetHelloWorld")]
