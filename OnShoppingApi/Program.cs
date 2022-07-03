@@ -10,7 +10,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAuthentication("Bearer")
     .AddIdentityServerAuthentication("Bearer", option =>
     {
-        option.Authority = "https://localhost:7123";
+        option.Authority = "https://onplatformidserverstaging.azurewebsites.net";
         option.ApiName = "onShoppingApi";
     });
 
