@@ -19,7 +19,7 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("OnShoppingApiScope", policy =>
     {
         policy.RequireAuthenticatedUser();
-        policy.RequireClaim("scope", "OnShoppingApi.read");
+        policy.RequireClaim("scope", "onShoppingApi.read");
     });
 });
 
