@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace OnShoppingApi.Controllers
+namespace OnPlatform.OnShopping.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
